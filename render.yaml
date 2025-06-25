@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: telegram-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python src/main.py
-    runtime: python
-    version: 3.11.9
